@@ -280,6 +280,12 @@ footer a {
     color: inherit;
 }
 
+@media (min-width: 800px) {
+    footer {
+        padding-bottom: 0 !important;
+    }
+}
+
 .kontakti {
     list-style: none;
     display: flex;
