@@ -271,10 +271,10 @@ img {
 footer {
     overflow: hidden;
     position: absolute;
+    margin-bottom: 0;
     right: 0;
     bottom: 0 !important;
     left: 0;
-    margin-bottom: 0;
     background-color: var(--dark);
     color: var(--light);
     text-align: center;
