@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Vizija</title>
+        <link rel="shortcut icon" href="./resources/img/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./resources/css/style.css">
+    </head>
+    <body>
+        <!-- Zaglavlje stranice -->
+        <header>
+            <div>
+                <img src="./resources/img/logo.png" alt="">
+            </div>
+            <button class="nav-btn" aria-label="uključivanje navigacije">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-lista">
+                    <li class="nav-stavke"><a href="#početna" class="nav-link">Početna</a></li>
+                    <li class="nav-stavke"><a href="#usluge" class="nav-link">Naše Usluge</a></li>
+                    <li class="nav-stavke"><a href="#info" class="nav-link">O Nama</a></li>
+                    <li class="nav-stavke"><a href="#kontakt" class="nav-link">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Predstavljanje -->
+        <section class="intro" id="početna">
+            <h1 class="intro-naslov">Zdravo, mi smo <strong>Web Vizija</strong></h1>
+            <p class="intro-podnaslov">Kompanija koja se bavi razvojem web stranica</p>
+        </section>
+
+        <!-- Usluge -->
+        <section class="naše-usluge" id="usluge">
+            <h2 class="usluge-naslov">Šta Radimo?</h2>
+            <div class="usluge">
+                <div class="usluga">
+                    <h3>Portfolio</h3>
+                    <p>Izrađujemo portfolio stranice po želji za pojedince kao i za mala, srednja i velika preduzeća. Vaše je da kažete šta želite, a naše je da Vaše ideje sprovedemo u realizaciju.</p>
+                </div>
+                <div class="usluga">
+                    <h3>Seminarski radovi</h3>
+                    <p>Izrađujemo seminarske radove za studente u vidu statičkih i dinamičkih web stranica koristeći razne alate i tehnologije poput HTML5, CSS3, Bootstap itd.</p>
+                </div>
+                <div class="usluga">
+                    <h3>Održavanje</h3>
+                    <p>Takođe se bavimo održavanjem postojećih web stranica, bez obzira da li je tu stranicu radila naša kompanija ili neko drugi. Održavanje obuhvata i klijentski i serverski deo web stranice.</p>
+                </div>
+            </div>
+            <a href="#kontakt" class="btn">Kontaktirajte nas</a>
+        </section>
+
+        <!-- O Nama -->
+        <section class="o-nama" id="info">
+            <h2 class="o-nama-naslov">Ko smo mi?</h2>
+            <p class="o-nama-podnaslov">Tim mladih ali dovoljno iskusnih dizajnera i programera</p>
+            <div class="o-nama-sadržaj">
+                <p>Kompanija je osnovana 2019. godine sa ciljem da svojim budućim klijentima pomogne u kreiranju web prezentacija. Za kratko vreme, zahvaljujući vrednim radom vrlo talentovanog tima ljudi, kompanija je stekla izuzetnu popularnost.</p>
+                <p>Danas radimo veliki broj različitih projekata za razne klijente. Naši klijenti su studenti, mladi preduzetnici, umetnici kao i mala i velika preduzeća. Pored razvoja web stranica radimo i održavanje istih, ukoliko je klijentima to potrebno.</p>
+            </div>
+        </section>
+
+        <!-- Podnožnje stranice -->
+        <footer id="kontakt">
+            <ul class="kontakti">
+                <li class="kontakti-stavka">Broj telefona: 015/XXX-XXX</li>
+                <li class="kontakti-stavka">E-mail adresa:
+                    <a href="#kontakt" class="kontakti-link">webvizija@kompanija.rs</a>
+                </li>
+                <li class="kontakti-stavka">
+                    <a href="#kontakt" class="kontakti-link">
+                        <i class="fab fa-instagram">&nbsp;</i>Web Vizija
+                    </a>
+                </li>
+                <li class="kontakti-stavka">
+                    <a href="#kontakt" class="kontakti-link"><i class="fab fa-facebook-square">&nbsp;</i>Web Vizija
+                    </a>
+                </li>
+            </ul>
+            <p>&copy; Web Vizija, 2021.</p>
+        </footer>
+
+        <script src="./resources/js/script.js"></script>
+    </body>
+</html>
