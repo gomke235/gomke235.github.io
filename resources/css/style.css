@@ -271,7 +271,7 @@ img {
 footer {
     overflow: hidden;
     margin-bottom: 0;
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0 !important;
     left: 0;
