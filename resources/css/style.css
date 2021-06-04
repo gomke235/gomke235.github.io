@@ -283,7 +283,7 @@ footer a {
 @media (min-width: 800px) {
     footer {
         overflow: hidden;
-        padding-bottom: 0 !important;
+        padding: 0 !important;
     }
 }
 
