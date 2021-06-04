@@ -284,6 +284,8 @@ footer a {
     footer {
         overflow: hidden;
         margin-bottom: 0;
+        position: absolute;
+        bottom: 0;
         padding: 0 !important;
     }
 }
