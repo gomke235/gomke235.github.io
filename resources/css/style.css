@@ -219,7 +219,7 @@ img {
 .naše-usluge {
     background-color: var(--dark);
     background-image: url(../img/kodiranje.jpg);
-    background-blend-mode: overlay;
+    background-blend-mode: multiply;
     background-size: cover;
     color: var(--light);
     text-align: center;
@@ -306,6 +306,7 @@ footer a {
     padding: .5em;
 }
 
-.kontakti-link:hover {
-    opacity: .7;
+.kontakti-link:hover,
+.logo-autor:hover {
+    color: var(--accent);
 }
