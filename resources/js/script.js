@@ -7,7 +7,7 @@ uključiNavigaciju.addEventListener('click', () => {
     document.body.classList.toggle('nav-otvori');
 });
 
-// Funckija za zatvaranje navigacione liste
+// Funkcija za zatvaranje navigacione liste
 navLinkovi.forEach(link => {
     link.addEventListener('click', () => {
         document.body.classList.remove('nav-otvori');
