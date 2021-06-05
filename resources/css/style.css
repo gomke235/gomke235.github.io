@@ -92,6 +92,7 @@ img {
 }
 
 .nav-lista {
+    overflow: hidden;
     list-style: none;
     display: flex;
     height: 100%;
