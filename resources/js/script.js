@@ -1,3 +1,4 @@
+// Skripta omogućava otvaranje i zatvaranje skrivenog navigacionog menija
 const uključiNavigaciju = document.querySelector('.nav-btn');
 const navLinkovi = document.querySelectorAll('.nav-link');
 
