@@ -7,14 +7,11 @@
 
 :root {
     --ff: 'Source Sans Pro', sans-serif;
-
     --fw-reg: 400;
     --fw-bold: 700;
-
     --light: #fff;
     --dark: #303030;
     --accent: #b39ddd;
-
     --fs-h1: 3rem;
     --fs-h2: 2.5rem;
     --fs-h3: 1.5rem;
