@@ -1,3 +1,4 @@
+/* Opšte postavke */
 *,
 *::before,
 *::after {
@@ -71,10 +72,12 @@ h3 {
     font-size: var(--fs-h3);
 }
 
+/* Logo */
 img {
     max-width: 100px;
 }
 
+/* Navigacija */
 .nav {
     position: fixed;
     background-color: var(--dark);
@@ -137,6 +140,7 @@ img {
     position: fixed;
 }
 
+/* Hamburger meni */
 .hamburger {
     display: block;
     position: relative;
@@ -168,6 +172,7 @@ img {
     bottom: 6px;
 }
 
+/* Postavke za naslove i podnaslove */
 .intro-naslov,
 .usluge-naslov,
 .o-nama-naslov {
@@ -188,19 +193,6 @@ img {
     text-align: right;
 }
 
-.intro {
-    position: relative;
-}
-
-.naše-usluge {
-    background-color: var(--dark);
-    background-image: url(../img/kodiranje.jpg);
-    background-blend-mode: overlay;
-    background-size: cover;
-    color: var(--light);
-    text-align: center;
-}
-
 .usluge-naslov {
     color: var(--accent);
     position: relative;
@@ -215,6 +207,21 @@ img {
     margin: 0.5em auto 1em;
     background: currentColor;
     opacity: 0.5;
+}
+
+/* Intro */
+.intro {
+    position: relative;
+}
+
+/* Sekcija sa uslugama */
+.naše-usluge {
+    background-color: var(--dark);
+    background-image: url(../img/kodiranje.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: var(--light);
+    text-align: center;
 }
 
 .usluge {
@@ -261,6 +268,7 @@ img {
     transform: scale(1.1);
 }
 
+/* Sekcija sa kratkim informacijama o kompaniji */
 .o-nama {
     background: var(--light);
     color: var(--dark);
@@ -268,6 +276,7 @@ img {
     margin: 0 auto;
 }
 
+/* Podnožje */
 footer {
     background-color: var(--dark);
     color: var(--light);
